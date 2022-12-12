@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>support || thinkagent</title>
+    <style>
+      input:focus {
+        outline: none;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="w-screen h-screen relative">
+      <div
+        class="w-full py-4 flex flex-col items-center justify-end px-2 bg-gray-50"
+      >
+        <img src="../images/logo.jpeg" class="w-32" />
+      </div>
+      <!-- feedback form code -->
+      <div class="w-1/2 mx-auto py-8">
+        <h1 class="text-3xl text-center">Feedback Form</h1>
+        <form>
+          <div class="flex items-center justify-center flex-1">
+            <div class="flex flex-col my-3 flex-1 mr-2">
+              <label>Full Name: </label>
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                class="bg-gray-100 px-2 py-3 rounded-md mt-2"
+              />
+            </div>
+            <div class="flex flex-col my-3 flex-1">
+              <label>Email: </label>
+              <input
+                type="text"
+                name="email"
+                placeholder="Email"
+                class="bg-gray-100 px-2 py-3 rounded-md mt-2"
+              />
+            </div>
+          </div>
+
+          <div class="flex flex-col my-3">
+            <label>Subject: </label>
+            <input
+              type="text"
+              name="subject"
+              placeholder="Subject"
+              class="bg-gray-100 px-2 py-3 rounded-md mt-2"
+            />
+          </div>
+          <div class="flex flex-col my-3">
+            <label>Message: </label>
+            <textarea class="bg-gray-100 px-2 py-3 rounded-md mt-2"></textarea>
+          </div>
+          <button class="bg-red-500 text-white w-full py-3 rounded-md mt-10">
+            Submit
+          </button>
+        </form>
+      </div>
+      <!-- footer code -->
+      <div class="w-full py-6 mt-10">
+        <div class="w-1/2 mx-auto grid grid-cols-3 gap-4 justify-items-center">
+          <div>
+            <p class="text-xl font-semibold mb-2">Extra links</p>
+            <div class="flex flex-col">
+              <a href="#" class="text-blue-500 underline text-ld">
+                dummy link 1
+              </a>
+              <a href="#" class="text-blue-500 underline text-ld">
+                dummy link 2
+              </a>
+              <a href="#" class="text-blue-500 underline text-ld">
+                dummy link 3
+              </a>
+            </div>
+          </div>
+          <div>
+            <p class="text-xl font-semibold mb-2">Extra links</p>
+            <div class="flex flex-col">
+              <a href="#" class="text-blue-500 underline text-ld">
+                dummy link 1
+              </a>
+              <a href="#" class="text-blue-500 underline text-ld">
+                dummy link 2
+              </a>
+              <a href="#" class="text-blue-500 underline text-ld">
+                dummy link 3
+              </a>
+            </div>
+          </div>
+          <div>
+            <p class="text-xl font-semibold mb-2">Extra links</p>
+            <div class="flex flex-col">
+              <a href="#" class="text-blue-500 underline text-ld">
+                dummy link 1
+              </a>
+              <a href="#" class="text-blue-500 underline text-ld">
+                dummy link 2
+              </a>
+              <a href="#" class="text-blue-500 underline text-ld">
+                dummy link 3
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-14 h-14 rounded-full bg-green-600 flex items-center justify-center absolute bottom-4 right-8 cursor-pointer"
+      >
+        <!-- <RiChatSmileFill className="text-white text-4xl" /> -->
+      </div>
+    </div>
+  </body>
+</html>
